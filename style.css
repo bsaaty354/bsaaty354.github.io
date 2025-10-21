@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+}
+.navbar{
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    z-index: 2;
+}
+
+.menu{
+    width: 100%;
+    float: left;
+    height: 70px;
+    z-index: 2;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    text-justify: center;
+    text-align: center;
+    z-index: 2;
+}
+
+ul li a{
+    display: block;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    padding: 12px 70px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-block: 2px solid transparent;
+    transition: border-color 0.3s ease;
+    transition: color 0.3s ease;
+    z-index: 2;
+}
+
+ul li a:hover{
+    color: cadetblue;
+    border-block-color: cadetblue;
+}
+
+#topImage{
+    grid-area: 1/1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 55px;
+    margin-top: 0px;
+    position: static;
+    z-index: 0;
+}
+
+.header{
+    display: grid;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    z-index: 0;
+}
+
+#name{
+    grid-area: 1/1;
+    align-self: end;
+    justify-self: center;
+    color: white;
+    font-family: cursive, sans-serif;
+    z-index: 5;
+    font-size: 600%;
+    font-weight: lighter;
+    padding-top: 1.5em;
+}
+.middle{
+    position: relative;
+    z-index: 10;
+    padding: auto;
+    display: block
+
+}
+#sectionTitle{
+    color: white;
+    font-family: cursive, sans-serif;
+    font-weight: lighter;
+    z-index: 10;
+    padding: auto;
+    font-size: 200%;
+}
+p{
+    position: relative;
+    color: white;
+    font-family: Arial, sans-serif;
+    z-index: 10;
+    padding: auto;
+}
+ol{
+    color: white;
+    line-height: 1.5em;
+    font-size: larger;
+}
+a{
+    color: white;
+}
